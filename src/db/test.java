@@ -21,7 +21,7 @@ public class test {
 //        System.out.println(dateFormat.format(calendar.getTime()));
         BookDAO bookDAO = new BookDAO();
         StudentDAO studentDAO = new StudentDAO();
-//        System.out.println(bookDAO.getBookById(13).getTitle());
+        System.out.println(bookDAO.getBookById(13).getTitle());
 //        Book book = new Book("Barabolya 2","Oleg very Big","NikiEDITION",2015);
 //        book.setId(13);
 //        bookDAO.delete(bookDAO.getBookById(12));

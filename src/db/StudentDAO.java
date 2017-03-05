@@ -15,7 +15,7 @@ public class StudentDAO {
 
     private Connection con = null;
     private Statement stmt = null;
-    private String url = "jdbc:sqlite:C:/Users/Vadim/Desktop/Приклади/Library.db";
+    private String url = "jdbc:sqlite:C:/Users/Vadim/Desktop/Приклади/LibraryDB.db";
 
 
     public void save(Student student) {
